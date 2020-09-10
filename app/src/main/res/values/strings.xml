@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalcApp</string>
+    <string name="theme" translatable="false">Theme night</string>
+    <string name="about_title">About</string>
+    <string name="about_autor">Autor</string>
+    <string name="about_message" translatable="false">Для данного приложения как основа был взят стандарный windows калькулятор.
+        Приложение не емеет коммерческой ценности и является ознакомительным. Распростроняется как есть с открытым кодом.</string>
+    <string name="hh_message">Author profile on HH</string>
+
+</resources>

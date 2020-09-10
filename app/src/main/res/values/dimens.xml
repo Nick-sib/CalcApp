@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">28sp</dimen>
+    <dimen name="button_operatopns_text_size">30sp</dimen>
+    <dimen name="formula_text_size">20sp</dimen>
+    <dimen name="display_text_size">40sp</dimen>
+    <dimen name="textview_height_size">150dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+</resources>

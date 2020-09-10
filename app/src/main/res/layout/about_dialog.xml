@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/about_title"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:text="@string/about_message"
+        app:layout_constraintBottom_toTopOf="@+id/barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <Button
+        android:id="@+id/bGotIt"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:text="@android:string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/bHH"
+        style="@style/HHButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/bGotIt"
+        app:layout_constraintStart_toStartOf="@+id/tvText" />
+
+    <TextView
+        android:id="@+id/tvHH"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/hh_message"
+        app:layout_constraintBottom_toBottomOf="@+id/bHH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bHH"
+        app:layout_constraintTop_toTopOf="@+id/bHH" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="bHH,tvHH"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

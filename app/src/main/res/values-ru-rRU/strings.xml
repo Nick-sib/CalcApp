@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalcApp</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_autor">Автор</string>
+    <string name="hh_message">Профиль автора на HH</string>
+</resources>

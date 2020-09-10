@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorButtonsResult">#6582DA</color>
+    <color name="colorButtonsOperations">#CC505050</color>
+    <color name="numbersBackgrountColor">#CCC8C8C8</color>
+    <color name="textColor">@android:color/darker_gray</color>
+</resources>

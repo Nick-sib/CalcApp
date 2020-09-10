@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorButtonsResult">#6582DA</color>
+    <color name="colorButtonsOperations">#CCC8C8C8</color>
+    <color name="numbersBackgrountColor">#FFF</color>
+    <color name="textColor">@android:color/primary_text_light</color>
+
+    <color name="ico_fillcolor">#00000000</color>
+    <color name="ico_strokecolor">#0DFFFFFF</color>
+</resources>

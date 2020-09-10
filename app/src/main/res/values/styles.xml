@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+
+    </style>
+
+    <style name="ButtonStyleNum" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/numbersBackgrountColor</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="ButtonStyleOperations" parent="ButtonStyleNum">
+        <item name="android:background">@color/colorButtonsOperations</item>
+        <item name="android:textSize">@dimen/button_operatopns_text_size</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="ButtonStyleSuper" parent="ButtonStyleOperations">
+        <item name="android:background">@color/colorButtonsResult</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HHButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+
+</resources>
